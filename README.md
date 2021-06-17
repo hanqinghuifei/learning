@@ -1,8 +1,12 @@
 # learning
 # 找开源项目的一些途径
+
 • https://github.com/trending/
+
 • https://github.com/521xueweihan/HelloGitHub
+
 • https://github.com/ruanyf/weekly
+
 • https://www.zhihu.com/column/mm-fe
 
 # 特殊的查找资源小技巧-常用前缀后缀 
