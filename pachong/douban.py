@@ -1,6 +1,9 @@
 import requests
 import json
 
+# https://m.douban.com/home_guide
+# https://m.douban.com/tv/chinese
+
 
 class doubanSpider:
     def __init__(self):
