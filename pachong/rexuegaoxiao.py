@@ -1,6 +1,13 @@
 # 有点儿难啊！ 兄弟！
 import requests
 from lxml import etree
+from selenium import webdriver
+import urllib.request
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
+import time
+from selenium.webdriver.support.ui import Select
+
 
 class dongman:
     def __init__(self):
@@ -28,19 +35,29 @@ class dongman:
             print(item)
         return content_list
 
-    def get_img_list(self, detal_url): # 获取帖子的图片
+    def get_img_list(self, detal_url):
         return 'https://manhua.dmzj.com' + detal_url
 
     def get_img(self, content_list):
-        n = 1
-        for content in content_list:
-            image_first = self.parse_url(content["img_list"]+'#@page={}'.format(n))
-            print(content["img_list"]+'#@page={}'.format(n))
-            html = etree.HTML(image_first)
-            # print(image_first)
-            print(etree.tostring(html).decode())
-            photo = html.xpath("//*[@id='center_box']/img/@src")
-            print(photo)
+        pass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     def save_img(self, content_list):
